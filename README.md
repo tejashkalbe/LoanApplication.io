@@ -1,0 +1,5 @@
+![op1](https://github.com/tejashkalbe/LoanApplication.io/assets/79565669/7abc00fb-0496-471a-80d0-7e820d1e30f3)
+![op2](https://github.com/tejashkalbe/LoanApplication.io/assets/79565669/bce363eb-0bff-4ec6-b03e-331f8e0ea65e)
+![op3](https://github.com/tejashkalbe/LoanApplication.io/assets/79565669/539f1187-1a56-468c-ae27-dfbfd4a25dbd)
+![op4](https://github.com/tejashkalbe/LoanApplication.io/assets/79565669/1d5f4d98-a749-4f98-bc5a-343c628c7181)
+![op5](https://github.com/tejashkalbe/LoanApplication.io/assets/79565669/adad8a55-ec35-4bf5-9d05-a1a3cbb7869f)
