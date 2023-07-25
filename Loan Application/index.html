@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Loan Page</title>
+</head>
+<body>
+  <div class="container">
+      <div class="formbox">
+        <h2>Bank Loan Application Form</h2>
+        <p><span>*</span>Kindly enter the correct information in the Loan Application Form</p>
+        
+        <form class="loanform" id="loanform" >
+          <div class="form-inputs">
+            <label for="Fname"><h4>Full Name :</h4></label>
+            <input type="text" class="form-control" name="Fname" id="Fname" autocomplete="off" title="Enter Full Name Min. 4 letters each word" placeholder=" Enter Your Full Name"><br>
+            <small>error message</small>
+          </div>
+          <div class="form-inputs">
+            <label for="email"><h4>Email Id :</h4></label>
+            <input type="email" class="form-control" name="email" id="email" autocomplete="off" title="Enter email id ex.abc@gm.co" placeholder=" Enter Your Email Id"><br>
+            <small>error message</small>
+          </div>
+          <div class="form-inputs">
+            <label for="Pan"><h4>Pan Id :</h4></label>
+            <input type="text" class="form-control" name="Pan" id="Pan" autocomplete="off" maxlength="10" title="Enter Pan Id ex. PANID1234Z" placeholder=" Enter Your Pan Id"><br>
+            <small>error message</small>
+         </div>
+          <div class="form-inputs">
+            <label for="LoanAmt"><h4>Loan Amount(Rs.) :</h4></label>
+            <input type="number" class="form-control" name="loanAmt" id="LoanAmt" autocomplete="off" placeholder=" Enter Loan Amt in Number " title="Enter Loan Amount " >
+            <br><small>error message</small>
+          </div>  
+          <div class="form-inputs">
+            <label for="Ltenure"><h4>Loan Tenure(Year) :</h4></label>
+            <input type="number" class="form-control" name="LoanTenure" id="Ltenure" autocomplete="off" placeholder=" Enter in Numbers " title="Tenure in year">
+            <br><small>error message</small>
+          </div>  
+          <input type="submit" id="calbtn" class="btn" value="Calculate EMI">
+          <h4 id="EstEmi">Estimated EMI:</h4>
+          <div class="buttons">
+            <input type="submit" id="sub" class="btn" value="Submit"><input type="reset" class="btn" value="Reset">
+          </div>
+        </form>
+      </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

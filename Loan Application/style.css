@@ -1,0 +1,101 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.container{
+  display: flex !important;
+  justify-content: center !important;
+  width: 100%;
+  height: 120vh;
+  /* border: 1px solid red; */
+}
+
+.formbox{
+  height: 104vh;
+  width:25vw;
+  margin-top: 35px;
+  border-radius: 10px;
+  box-shadow: 6px 6px 18px rgba(61, 60, 60,0.8);
+  background-color: rgb(55, 209, 209);
+  position: relative;
+  
+}
+.formbox h2{
+  margin: 25px 0px;
+  text-align: center;
+}
+.formbox p{
+  margin: 25px 0px 25px 0px;
+  text-align: left;
+  padding: 5px 20px;
+  font-weight: 600;
+  font-size: 15px;
+}
+.formbox p span{
+  color: red;
+}
+
+.loanform{
+min-width: auto;
+margin: 0px 20px
+}
+.loanform h4{
+  font-size: 18px;
+}
+.loanform .btn{
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(15, 90, 139);
+  background-color: rgb(14, 98, 155);
+  color: white;
+  font-weight: bold;
+}
+.loanform .buttons .btn{
+  height: 2rem;
+  line-height: 3px;
+  font-size: 20px;
+  margin-right: 5px;
+  font-weight: 400;
+  padding:7px;
+}
+#EstEmi{
+  margin:15px 0px;
+  font-weight: bold !important;
+}
+.form-control{
+  width: 100%;
+  height: 2rem;
+  padding: 0px 5px;
+  border-radius: 5px;
+  border: 2px solid rgb(53, 182, 182);
+}
+.form-control:focus{
+outline: 0;
+border-color: rgba(56, 56, 104, 0.849);
+}
+.form-inputs{
+  position: relative;
+  margin-bottom: 20px;
+}
+.form-inputs #Pan{
+  text-transform: uppercase;
+}
+.form-inputs small{
+  position: absolute;
+  color: red;
+  visibility: hidden;
+}
+.form-inputs.error small{
+  visibility: visible;
+}
+.form-inputs.error input{
+  border: 1px solid red;
+}
+.form-inputs.success small{
+visibility: hidden;
+}
+.form-inputs.success input{
+  border: 1px solid green;
+}

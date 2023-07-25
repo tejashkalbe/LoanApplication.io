@@ -1,0 +1,146 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.container{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  border: 1px solid red;
+}
+
+.formbox{
+  height: 70vh;
+  width:25vw;
+  /* margin-top: 35px; */
+  border-radius: 10px;
+  box-shadow: 6px 6px 18px rgba(61, 60, 60,0.8);
+  background-color: rgb(55, 209, 209);
+  position: relative;
+  
+}
+.formbox h2{
+  margin: 25px 0px;
+  text-align: center;
+}
+.formbox p{
+  /* margin: 25px 0px 0px 0px; */
+  text-align: left;
+  padding: 5px 20px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.5rem;
+}
+.formbox p > span{
+  text-transform: capitalize;
+}
+.formbox p span{
+  color: rgb(91, 15, 212);
+}
+.formbox p #email{
+text-transform: lowercase;
+}
+#form-control{
+  margin: 10px 0 0 0;
+  padding: 15px 20px;
+  position: relative;
+  /* border: 1px solid red; */
+}
+#form-control #otp{
+  margin: 12px 0 0 0;
+  width: 90%;
+  border-radius: 5px;
+  height: 25px;
+  outline: 0;
+  border: 2px solid rgb(53, 182, 182);
+
+}
+.form-control small{
+  position: absolute;
+  visibility: hidden;
+}
+.form-control.error small{
+  visibility: visible;
+  color: red;
+}
+.form-control.off{
+  display: none;
+}
+.formbox.valoff #validate{
+  display: none;
+}
+.formbox.valoff #back{
+ margin: 10px 20px
+}
+.formbox.btnoff #validate, .formbox.btnoff #back{
+  display: none;
+}
+#validate, #back{
+  background-color: rgb(91, 15, 212);
+  height: 30px;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 20px;
+  border: 1px solid rgb(78, 18, 173);
+}
+#back{
+  margin-left: 2px;
+}
+
+
+#success-div {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  position: absolute;
+  top: 310px;
+  left:30px;
+}
+
+#sub1 img {
+  width: 50px;
+}
+
+#sub1 {
+  width: 60px;
+  height: 90px;
+}
+
+#sub2 {
+  width: 250px;
+  height: 90px;
+  padding-top: 14px;
+  font-size: x-large;
+  color: rgb(0, 186, 0);
+}
+
+#fail-div {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  position: absolute;
+  top: 310px;
+  left:50px;
+}
+
+#sub11 img {
+  width: 50px;
+}
+
+#sub11 {
+  width: 60px;
+  height: 90px;
+}
+
+#sub22 {
+  width: 250px;
+  height: 90px;
+  padding-top: 14px;
+  font-size: x-large;
+  color: rgb(244, 67, 54);
+}
